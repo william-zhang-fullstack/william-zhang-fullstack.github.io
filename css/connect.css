@@ -1,0 +1,39 @@
+/* container for connect "form" fields */
+.connect-field {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.connect-field input {
+  height: 3rem;
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.connect-field label {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  color: white;
+}
+
+.connect-field textarea {
+  min-height: 6rem;
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 4px;
+}
+
+#connect-section button {
+  width: 20%;
+}
+
+#connect-section {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 3rem;
+  background: rgb(180, 40, 40);
+  align-items: center; /* centers vertically with flex column */
+}

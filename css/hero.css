@@ -18,6 +18,7 @@
   position: absolute;
   height: 25vh;
   width: 40%;
+  min-width: 400px;
   margin-top: 15%;
   margin-left: 5%;
 }
@@ -29,30 +30,46 @@
   grid-row: grid-top / span 1;
 }
 
-.hero-action button {
+.hero-action button.main-call-btn {
   background-color: rgb(20, 50, 160, 0.75);
-  border-radius:    20px;
-  border:           1px rgb(20, 50, 160, 0.75);
+  border:           1px solid rgb(20, 50, 160, 0.75);
+  border-radius:    9999px;
   color:            white;
-  font-size:        1em;
+  font-size:        18px;
   font-weight:      bold;
+  grid-column:      grid-left / span 1;
   grid-row:         grid-mid-row / span 1;
   letter-spacing:   1px;
   padding:          12px 25px;
   text-transform:   uppercase;
-  transition:       transform 80ms ease-in;
+  transition:       all 100ms ease-in;
 }
 
-.hero-action button.main-call-btn {
-  grid-column: grid-left / span 1;
+.hero-action button.main-call-btn:hover {
+  opacity: 0.5;
 }
 
-.hero-action button.sec-call-btn {
+.hero-action a.sec-call-btn {
   background: white;
-  border: 1px white;
+  border-radius: 9999px;
+  border: 2px white;
   opacity: 0.7;
   color: rgb(20, 50, 160);
+  font-size:        18px;
+  font-weight:      bold;
   grid-column: grid-mid-col / span 1;
+  grid-row:         grid-mid-row / span 1;
+  letter-spacing:   1px;
+  padding:          12px 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform:   uppercase;
+  transition:       all 100ms ease-in;
+  vertical-align: middle;
+}
+
+.hero-action a.sec-call-btn:hover {
+  opacity: 0.5;
 }
 
 #main-headline {

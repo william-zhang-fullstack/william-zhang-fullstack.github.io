@@ -6,10 +6,8 @@
 }
 
 body {
-  background: #e4e0e4;
-  color: #3e1b0c;
-
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {

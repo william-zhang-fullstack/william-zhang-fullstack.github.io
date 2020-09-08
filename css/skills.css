@@ -1,0 +1,35 @@
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills-container > div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(60, 180, 80);
+}
+
+.skill-icon {
+  color: rgb(80, 200, 100);
+  font-size: 88px;
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+  border: 1px solid green;
+  color: rgba(0, 0, 0, 0.7);
+}
